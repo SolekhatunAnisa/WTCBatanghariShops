@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arjunnisa.wtcbatangharishops.CakochikuActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cakochiku"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/cako4" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Tentang Cakochiku
+                Cakochiku merupakan brand dari cina dan korea dengan beberapa pilihan merk seperti Solemio:Mendes,Caco  Kelen:Cacoya   Maje:Cliona Countura, Vintage:Odiva yang mempopulerkan boutique nya dengan cokochiku membuka pertama kali di pulau sumatera di kota jambi dan Palembang kota kedua serta pertama kali di Kota Palembang yang berada di Palembang in mall." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/cakochiku" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Cakochiku 
+                Boutique yang berada di lantai dasar Mall Wtc Bantanghari ini memeyediakan busana wanita dan anak-anak dari usia 2 tahun sampai 11 tahun serta busana remaja dan dewasa dengan hnya selam 2 minggu semua produk di cahociku ini display di ganti dengan barang yang baru mengikuti moment yang ada setip bulannya. Boutique cakochiku ini membandroli harga dari harga rp.100.000 sampa dengan 1 juta,diantaranya Rp.500.000 sampai 1  juta untuk baju busana muslim.Produk dar cakochiku ini tidak pernah mengadakan promo maupun discount ,tetapi kalau dibandingkan dengan dengan mereka memesan dinon line harganya malah lebih murah di boutique apa lagi di waktu –waktu tertentu kita suka memberikan hadiah berupa gift seperti tupperwere,bumbu masak,anti septic yang tempatnya antic yang diesan dari luar negeri." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

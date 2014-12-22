@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arjunnisa.wtcbatangharishops"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SourSallyActivity"
+            android:label="@string/title_activity_sour_sally" >
+        </activity>
+        <activity
+            android:name=".KFCActivity"
+            android:label="@string/title_activity_kfc" >
+        </activity>
+        <activity
+            android:name=".MinimalActivity"
+            android:label="@string/title_activity_minimal" >
+        </activity>
+        <activity
+            android:name=".CakochikuActivity"
+            android:label="@string/title_activity_cakochiku" >
+        </activity>
+        <activity
+            android:name=".SportStationActivity"
+            android:label="@string/title_activity_sport_station" >
+        </activity>
+    </application>
+
+</manifest>
